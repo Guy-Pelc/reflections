@@ -1,1 +1,7 @@
 not bad...
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+-do 
+--git diff to check that there is only one difference between working directory and staging area
+--git diff staging to check that there is only one difference between staging area and last commit
